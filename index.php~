@@ -1,0 +1,112 @@
+<HTML>
+
+<HEAD>
+        <TITLE>Burning Bright &ndash; a Shadowrun Campaign</TITLE>
+        <LINK TYPE="text/css" REL="stylesheet" HREF="sr20.css">
+</HEAD>
+
+<BODY>
+
+<DIV id="center">
+<A HREF="http://msmbnetworks.com/hosted/Shadowrun/"><IMG SRC="img/sr20_header.jpg" /></A>
+
+<!-- End Header -->
+<DIV id="main-content">
+
+<!-- Begin Sidebar -->
+
+<DIV id="sidebar-left">
+<H2 ALIGN=Left STYLE="padding-left: 15px;">&bull; <A HREF="runners.php" CLASS="sidebar">Our Team</A></H2>
+<H2 ALIGN=Left STYLE="padding-left: 15px;">&bull; Previous Runs</H2>
+<H2 ALIGN=Left STYLE="padding-left: 15px;">&bull; Favorite Haunts</H2>
+<H2 ALIGN=Left STYLE="padding-left: 15px;">&bull; &#8220;Friendly&#8221; Faces</H2>
+<BR />
+<H2 ALIGN=Left STYLE="padding-left: 15px;">&bull; <A HREF="campaign.php" CLASS="sidebar">Campaign Notes</A></H2>
+<DIV STYLE="position: absolute; bottom: 0; padding: 5px; text-align: justify;">
+<CENTER>~ Copyright Disclaimer ~</CENTER>
+<SPAN STYLE="font-size: 85%;">The Topps Company, Inc. has sole ownership of the names,
+logo, artwork, marks, photographs, sounds, audio, video and/or any proprietary material
+used in connection with the game Shadowrun. The Topps Company, Inc. has granted permission
+to Poetics to use such names, logos, artwork, marks and/or any proprietary materials for
+promotional and informational purposes on its website but does not endorse, and is not
+affiliated with Poetics in any official capacity whatsoever.</SPAN>
+</DIV>
+
+</DIV>
+
+<!-- End Sidebar -->
+<!-- Begin Main Body -->
+
+<DIV CLASS="primary">
+
+<H1 STYLE="padding-left: 15px;">Betrayed &#8230;</H1>
+
+With backgrounds as disparate as their unique skillsets these four elite Shadowrunners 
+have found themselves in the mean streets of Seattle, fighting for a little piece of the 
+action.  Each of them seems to be running from something, but all of their eyes on the 
+prize &mdash; retribution against the one who betrayed them and more importantly, 
+understanding <em>why</em>.
+
+<H1 STYLE="padding-left: 15px;">The Seattle Underground</H1>
+
+Without friends or connections, our team of loners and gray-market miscreants has to 
+scrimp and dodge the corporate operatives hired to counter their every move.  Who will 
+they choose to trust?  What jobs are they willing to take?  In their quest for revenge, 
+for answers, for freedom, what bridges will they cross, will they burn?  Above all else, 
+who will they turn to when they need help?
+
+<H1 STYLE="padding-left: 15px;">Getting Dirty</H1>
+
+As bright as the neon skies overhead shine, the cracks and hollows between the megas 
+seem all the darker, ready to absorb and swallow whole those who would dare to live in 
+them.  Friends and foes teem in the shades of grey, and nobody's PAN broadcases which 
+one they are.  Join us as we watch our team lie, cheat, smooth-talk, bribe, and some 
+times hurt others to get what they want.  After all, the acid rain washes everything 
+away, right <em>omae</em>?
+
+</DIV>
+
+
+<!-- End Main Body -->
+<!-- Begin Scrollbar -->
+
+<DIV ID="scroller">
+
+<marquee behavior="scroll" direction="left">
+
+<?php
+
+$news = array(
+"Popular hacker hangout and night club the Tower of Babel was damaged Monday by \"rampant magical energies.\"",
+"Christy Daee's new album <i>Rainy Day</i> goes platinum after latest sex scandal.",
+"Maria Mercurial rumored to be in the studio once again &mdash; creates buzz of possible new album.",
+"Renraku releases patch for their popular Ichi OS targeted at closing unspecified loopholes.",
+"Recent bidding for wireless firm Metis Enterprises reveals hidden Aztechnology proxy war.",
+"Joe-Lee Hendricks places first in the Ares NASCAR Sprint Cup.",
+"<u>Fire - Legend of the Five Crowns, Part II</u> released this week tops the New Sims charts.",
+"Ares Arms to showcase new sleeker Thunderbirds at Paris Arms show.",
+"TrumanTECH has issued a recall on all <em>SunFire A</em> flare compensation systems from the 2071 release.",
+"Sookie Red-Flower 3 has gone gold, release set for next month. Exclusive clips leaked to the Matrix.",
+"NEONet raises prices at Winterland Expo, blames increased safety costs on recent unauthorized activity.",
+"Wuxing announces release of budget cyber eye suites for late 2072.",
+"MCT reneges on offer to provide vintage, organic 2054 Shiraz for EVOCon.",
+"Murder on Council Island increases scrutiny of outsiders.",
+);
+
+shuffle($news);
+
+echo " &nbsp;&bull;&nbsp; " . $news[0] . " &nbsp;&bull;&nbsp; " . $news[1] . " &nbsp;&bull;&nbsp; " . $news[2] . " &nbsp;&bull;&nbsp; " . $news[3] . " &nbsp;&bull;&nbsp; ";
+?>
+
+</marquee>
+
+</DIV>
+
+</DIV>
+</DIV>
+<!-- End Scroll Bar-->
+
+
+</BODY>
+
+</HTML>

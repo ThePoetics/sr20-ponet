@@ -1,0 +1,43 @@
+BODY {  background-image: url(img/moulin.png); font-family: calibri, arial, helvetica, sans-serif; 
+	color: #FFFFFF; margin: 0; padding: 0; }
+
+#center { width: 1000px; left: 50%; margin-left: -500px; margin-top: 0px;
+	background-image: url(img/escheresque_ste.png); border: 1px solid #00fff6;
+	position: absolute;
+}
+
+#main-content { width: 100%; text-align: justify; position: absolute; border: 1px solid #00FFF6; 
+	margin-left: -1px; background-image: url(img/escheresque_ste.png);
+}
+
+.primary { margin: 15px; font-size: 120%; color: #CCFFFF; padding-left: 200px; }
+
+#sidebar-left { width: 200px; float: left; background-image: url(img/hixs_pattern_evolution.png);
+	border-right: 1px solid #00FFF6; margin-right: 15px;
+	position: absolute; height: 100%;
+}
+	
+
+a.sidebar:link { color: #fe00f6; text-shadow: 1px 1px #00fff6; font-weight: bold; 
+  text-decoration: none;
+}
+a.sidebar:visited { color: #fe00f6; text-shadow: 1px 1px #00fff6; font-weight: bold; 
+  text-decoration: none;
+}
+a.sidebar:hover { color: #00fff6; text-shadow: 1px 1px #fe00f6; font-weight: bold; }
+
+#scroller { background-image: url(img/moulin.png); border: 1px solid #00fff6;
+	display: block; height: 35px; line-height: 35px; vertical-align: middle; 
+	margin-right: -1px; margin-bottom: -1px;
+}
+
+h1,h2,h3 { color: #fe00f6; text-shadow: 1px 1px #00fff6; font-weight: bold; padding-left: 15px; }
+
+
+HR { border: 0; width: 80%; display: block; color: #fe00f6; margin-top: 15px;
+	background-color: #fe00f6; box-shadow: 1px 1px 1px #00fff6; 
+	margin-bottom: 20px;
+}
+
+a { text-decoration: none; }
+a:hover { text-decoration: underline; }
